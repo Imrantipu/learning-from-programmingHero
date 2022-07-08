@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 
+h1 {
+    background-color: indianred;
+    /* block element can work as inline by using display:inline*/
+/* display: inline;
+}
+*/
+h1 {
+    background-color: indianred;
+}
+
+/* hover effect works when mouse place at the point */
+h1:hover {
+    color: skyblue;
+    background-color: seagreen;
+    margin: 50px;
+    padding: 50px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+span {
+    background-color: lawngreen;
+    /* right and left margin,padding possible only for inline element */
+    margin-right: 20px;
+    /* to use hight and width in inline element need disply:inline-block */
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+}
+
+div {
+    background-color: lightcoral;
+    /* hight and width only posible for block element */
+    height: 300px;
+    width: 250px;
+}
+
+h2 {
+    background-color: mediumpurple;
+}
+
+p {
+    background-color: mintcream;
+}
