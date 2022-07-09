@@ -47,3 +47,43 @@ h2 {
 p {
     background-color: mintcream;
 }
+
+/* use focus pseudo when mouse works */
+.middle-person:focus {
+    color: blue;
+    font-weight: 700;
+}
+
+/* use visited oseudo  for ancor tag */
+a:visited {
+    color: red;
+}
+
+/*  <!-- user pseuso class for diffrent child coloring line aliya ,charaia --> */
+li:first-child {
+    color: chocolate;
+}
+
+li:last-child {
+    background-color: cornflowerblue;
+}
+
+/* for even number child */
+li:nth-child(2n) {
+    color: crimson;
+}
+
+/* for odd numbers */
+li:nth-child(2n+1) {
+    background-color: darkgray;
+}
+
+/* using pseudo element to show content befor and after heading */
+h3::before {
+    content: 'hello ';
+}
+
+h3::after {
+    content: ' gelo';
+    background-color: darkkhaki;
+}
