@@ -87,3 +87,60 @@ h3::after {
     content: ' gelo';
     background-color: darkkhaki;
 }
+
+/* table boarder collapse will make the table row attatched together */
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid lightgray;
+    padding: o 10px;
+}
+
+/*  Simple navbar and internal navigation among files */
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    padding: opx 10px;
+}
+
+nav li:hover {
+    background-color: lightgray;
+}
+
+nav li a {
+    text-decoration: none;
+
+}
+
+/*  nested menu dropdown option on mouseover */
+nav>ul {
+    display: flex;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+/* css custom property */
+
+:root {
+    --dark-border: 2px solid black;
+
+}
+
+h1 {
+    background: var(--dark-border);
+}
