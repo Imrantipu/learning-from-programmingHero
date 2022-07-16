@@ -144,3 +144,36 @@ nav>ul>li:hover>ul {
 h1 {
     background: var(--dark-border);
 }
+
+/* Mileston 1: Modol 7 started */
+/* 7-1 CSS3 Module Introduction visibility hidden vs display none */
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid indigo;
+}
+
+#box-1 {
+    background-color: khaki;
+}
+
+#box-2 {
+    background-color: seagreen;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+#box-3 {
+    background-color: sienna;
+}
+
+/* 7-2 CSS Overflow visible, hidden, scroll, text-overflow, ellipsis */
+.mega-box {
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: none;
+    text-overflow: ellipsis;
+}
+
+/* 7-3 Optimize images, types of images, svg, png, jpg, Sprite */
