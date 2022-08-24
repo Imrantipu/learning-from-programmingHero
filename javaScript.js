@@ -8,11 +8,11 @@
 
 // -----------data type check
 
-const number = 25;
-if(typeof number === 'number'){
-    console.log('number');
+// const number = 24;
+// if(typeof number === 'number'){
+//     console.log('number');
 
-}
-else{
-    console.log('not a number');
-}
+// }
+// else{
+//     console.log('not a number');
+// }
