@@ -145,7 +145,7 @@ h1 {
     background: var(--dark-border);
 }
 
-/* Mileston 1: Modol 7 started */
+/* Mileston 2: Modol 7 started */
 /* 7-1 CSS3 Module Introduction visibility hidden vs display none */
 .box {
     height: 100px;
@@ -235,3 +235,50 @@ h1 {
     float: left;
     cursor: pointer;
 }
+
+/*   <!-- Mileston 1: Modol 8 started --> */
+/* 8-1 Module Introduction and website layout */
+/* 8-2 flexbox, flex direction justify content align items */
+.container {
+    /* justify contant for horizontal move */
+    border: 3px dotted purple;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    /* align items for vertical move means uni directional*/
+    height: 300px;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* box take whole place and become responsive */
+    flex-grow: 1;
+}
+
+/* 8-3 Create Login Form And Flexible Nav Using Flexbox */
+.login-form input[type="submit"] {
+    background-color: goldenrod;
+
+}
+
+/* 8-4 CSS Grid layout template columns grid gap */
+
+.grid-layout .day {
+    display: grid;
+    grid-template-columns: 200px 200px auto 100px;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(3, 1fr) 2fr;
+    grid-template-rows: 30px repeat(5, 75px);
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 10px;
+
+}
+
+/* 8-6 Explore Responsiveness using Media query */
