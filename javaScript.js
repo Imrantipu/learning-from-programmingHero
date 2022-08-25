@@ -28,3 +28,29 @@
 // const a = 20;
 // const b = 30;
 // const summary = `sum of ${a} and ${b}  is: ${a+b}`;
+
+
+// // Milestone 6: Arrow function, multiple parameter, function body
+// // function declaration
+// function add(first, second){
+//     const total = first + second;
+//     return total;
+// }
+// // function expression
+// const add1 = function add1(first, second){
+//     const total = first + second;
+//     return total;
+// }
+// // function expression with anonymous function
+// const add1 = function (first, second){
+//     const total = first + second;
+//     return total;
+// }
+
+// // function expression with anonymous function with direct return value
+// const add1 = function(first,second){
+
+//     return first + second;
+// }
+// // arrow function 
+// const add1 = (first, second) => first + second;
