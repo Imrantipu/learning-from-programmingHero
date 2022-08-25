@@ -22,3 +22,9 @@
 // // now add style from parent class
 // friend.classList.add('parent-class');
 // });
+
+
+// // Milestone 6: 30-4 Template string, multiple line string, dynamic string
+// const a = 20;
+// const b = 30;
+// const summary = `sum of ${a} and ${b}  is: ${a+b}`;
