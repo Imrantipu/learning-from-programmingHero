@@ -54,3 +54,21 @@
 // }
 // // arrow function 
 // const add1 = (first, second) => first + second;
+
+
+
+// Milestone 6: More Arrow functions and big arrow function
+
+const multipy = (a,b) => a*b;
+// no parameater arrow function
+const getPi = () => 3.14;
+// one parameater arrow function
+const doubleIt = (num) => num *2;
+
+// one parameater simplified version arrow function
+const fiveTimes = num => num *5;
+
+// multi line arrow function use return if needed
+const doMath = (x,y,z) => {
+    // similar function code
+}
