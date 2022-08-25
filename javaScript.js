@@ -98,3 +98,27 @@ const {name,color,price} = fish;
 // Array Desstructuring 
 const nayoks = ['sakib','bappi','raj'];
 const [king,lost,notun] = nayoks;
+
+
+
+// Milestone 6:  Access Value, nested object Optional chaining
+// object in an array
+const users = [ {id: 1, name: 'abul', job: 'doctor'} ]
+// Access name object property in users array
+const access = users[0].name;
+
+// array in an object
+const data = {
+    count: 5000,
+    data: [
+        {id: 1, name: 'babul', job: 'leader'},
+        {id: 2, name: 'dabul', job: 'leader'},
+    ]
+}
+// first entering data object then data arrey first element then select job from inner object
+const firstJob = data.data[0].job;
+
+// using chain element with error using question mark
+const firstJob = dat?.data[0]?.job
+
+
