@@ -82,3 +82,19 @@ const array = [45,567,777,888];
 const arrayMaxNumber = Math.max(...array);
 // make new array using spread operator
 const newArray = [48,67,...array,67];
+
+
+// Milestone 6: (advanced) Object and Array Destructuring
+
+// object destructuring : variable name and property name same
+const fish = {
+     name : "King Hilsa",
+     color : 'silver',
+     price : 4000
+}
+
+const {name,color,price} = fish;
+
+// Array Desstructuring 
+const nayoks = ['sakib','bappi','raj'];
+const [king,lost,notun] = nayoks;
