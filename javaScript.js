@@ -72,3 +72,13 @@ const fiveTimes = num => num *5;
 const doMath = (x,y,z) => {
     // similar function code
 }
+
+// Milestone 6: Spread operator, array max, copy arrays
+
+// use of math max
+const maxNumber = Math.max(56,45,999,47);
+// find maximum number in a array using spread operator
+const array = [45,567,777,888];
+const arrayMaxNumber = Math.max(...array);
+// make new array using spread operator
+const newArray = [48,67,...array,67];
