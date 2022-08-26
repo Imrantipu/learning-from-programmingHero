@@ -121,4 +121,26 @@ const firstJob = data.data[0].job;
 // using chain element with error using question mark
 const firstJob = dat?.data[0]?.job
 
+// Milestone 6: Array map to do one line loop magic
+
+const add1 = (first, second) => first + second;
+const result = add1(10,20);
+console.log(result);
+
+/* 
+purpose: 
+1. get an array
+2. for every elements of the array do something
+3. store the result in an array
+4. return the result array
+*/
+const doubleIt = num => num * 2;
+
+const makeDouble = numbers.map(doubleIt);
+const makeDoubleDirect = numbers.map(num => num * 2)
+const makeDouble2 = numbers.map(x => x * 2);
+// console.log(makeDoubleDirect);
+const fiveTimes = [1,2,3,4,5].map(x => x * 5);
+console.log(fiveTimes);
+
 
