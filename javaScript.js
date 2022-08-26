@@ -143,4 +143,26 @@ const makeDouble2 = numbers.map(x => x * 2);
 const fiveTimes = [1,2,3,4,5].map(x => x * 5);
 console.log(fiveTimes);
 
+// Milestone 6: Map string array, array of objects map, foreach
+
+// find first latter of all element like(T,T,T,T)
+const friends = ['Tom Hanks', 'Tom Cruise', 'Tom Brady', 'TOM Solaiman'];
+const firstLetters = friends.map(friend => friend[0]);
+
+// find length of all element like [9,10,9,11]
+const nameLengths = friends.map(friend => friend.length);
+
+const products = [
+    {id: 1, name: 'laptop', price: 45000},
+    {id: 1, name: 'mobile', price: 80000},
+    {id: 1, name: 'watch', price: 35000},
+    {id: 1, name: 'tablet', price: 23000},
+];
+// take all name and price from the object
+const items = products.map(product => product.name);
+const prices = products.map(p => p.price);
+
+// for each to show all element it wont return
+products.forEach(product => console.log(product));
+
 
