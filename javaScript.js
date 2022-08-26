@@ -165,4 +165,23 @@ const prices = products.map(p => p.price);
 // for each to show all element it wont return
 products.forEach(product => console.log(product));
 
+// Milestone 6: Implement filter, find on an array of objects
 
+// filter function stores value of implemented conditions
+const numbers = [12, 5, 23, 45, 11, 18, 9, 55, 61, 1];
+const bigNums = numbers.filter(number => number > 20);
+const tiny = numbers.filter(n => n < 10);
+const even = numbers.filter( num => num % 2 === 0);
+
+
+const products = [
+    {id: 1, name: 'laptop', price: 45000},
+    {id: 1, name: 'mobile', price: 80000},
+    {id: 1, name: 'watch', price: 35000},
+    {id: 1, name: 'tablet', price: 23000},
+];
+const expensive = products.filter(product => product.price < 100);
+
+// find function output only fist element of implemented condition
+const fives = numbers.find(num => num % 5 === 0);
+const cheap = products.find(product => product.price < 40000);
